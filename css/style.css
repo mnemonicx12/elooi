@@ -1,0 +1,242 @@
+* {
+	padding: 0px;
+	margin: 0;
+	font-family: 'Poppins', 'Lavishly Yours', 'Indie Flower', 'Sacramento', sans-serif;
+}
+.navbar {
+	position: relative;
+	z-index: 3;
+}
+.nav-color{
+	background-color: #00000083;
+	color: #fff;
+	transition: all ease-in-out 0.3s;
+}
+.bg-transparent{
+	transition: all ease-in-out 0.3s;
+}
+a.navbar-brand{
+	font-family: 'Indie Flower';
+	font-weight: 600;
+}
+section.hero {
+	height: 100vh;
+	width: 100%;
+	background-color: #fdf6ec;
+}
+section.hero img {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	object-fit: cover;
+}
+section.hero .title {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+section.hero .title .text h1 {
+	font-size: 200px;
+}
+
+section.avatar-content {
+	background-color: #fdf6ec;
+	padding-top: 35px;
+	padding-bottom: 30px;
+}
+section.avatar-content .profil{
+	display: flex;
+	background-color: #fdf6ec;
+	width: 100%;
+	justify-content:center ;
+	gap: 10rem;
+	padding-bottom: 20px;
+}
+section.avatar-content .profil img{
+	width: 200px;
+}
+section.avatar-content .profil h3{
+	font-family: 'Sacramento';
+	font-weight: 700;
+}
+section.avatar-content .isi-content p{
+	font-size: 25px;
+	font-family: 'Sacramento';
+	font-weight: 700;
+}
+section.avatar-content .avatar{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 30px;
+}
+section.avatar-content img {
+	width: 400px;
+}
+section.avatar-content h3 {
+	font-size: 32px;
+	padding-top: 25px;
+}
+
+section.card-galery {
+	width: 100%;
+	height: 100%;
+}
+section.card-galery .title h3{
+	font-size: 50px;
+	font-family: 'Sacramento';
+	font-weight: 700;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+section.card-galery .row {
+	display: flex;
+	justify-content: center;
+}
+section.card-galery .row .items{
+	margin: 15px 0;
+}
+section.card-galery .items img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+section.undangan {
+	height: 100vh;
+	width: 100%;
+	background-color: #fdf6ec;
+}
+section.undangan img {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	object-fit: cover;
+}
+section.undangan .date-content {
+	position: relative;
+	display: flex;
+	align-items:center ;
+	justify-content:  center;
+	width: 100%;
+	height: 100%;
+}
+section.undangan .sepdedet {
+	padding-top: 30px;
+}
+section.undangan .sepdedet h3{
+	color: #fff;
+	font-family: 'poppins';
+	font-weight: 700;
+	padding-top: 15px;
+	font-size: 30px;
+}
+section.undangan .sepdedet i{
+	font-size: 150px;
+	color: #fff;
+}
+section.undangan .sepdedet p{
+	font-size: 25px;
+	color: #fff;
+}
+
+.musik-icon i{
+	position: absolute;
+	z-index: 90;
+	font-size: 30px;
+	color: #fff;
+	bottom: 35px;
+	right: 35px;
+	cursor: pointer;
+	transition: all ease-in-out 0.3s;
+}
+
+.tombol{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 100px 0;
+}
+.tombol a{
+	padding: 20px 300px;
+	background-color: #94B49F;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Indie Flower';
+	font-weight: 700;
+	font-size: 40px;
+	border-radius: 30px;
+}
+.tombol a:hover{
+	color: #fff;
+}
+
+/*          RESPONSIVE          */
+@media screen and (max-width: 576px) {
+	section.hero .title .text h1 {
+		font-size: 100px;
+	}
+	section.avatar-content img {
+		width: 200px;
+	}
+	section.avatar-content h3 {
+		font-size: 20px;
+		padding-top: 15px;
+	}
+	section.card-galery .items {
+	padding: 0 20px;
+	}
+	section.card-galery .items img {
+		width: 100%;
+		height: 95%;
+		object-fit: cover;
+		border-radius: 20px;
+	}
+	section.avatar-content .profil{
+		width: 100%;
+		gap: 3rem;
+		padding-bottom: 30px;
+	}
+	section.avatar-content .profil img{
+		width: 90px;
+	}
+	section.avatar-content .isi-content p{
+		font-size: 20px;
+	}
+	section.card-galery .title h3{
+		font-size: 25px;
+		font-weight: 700;
+		padding-top: 25px;
+	}
+	section.undangan .sepdedet p{
+		font-size: 16px;
+		color: #fff;
+	}
+	.tombol{
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		padding: 50px 0;
+	}
+	.tombol a{
+		padding: 10px 100px;
+		background-color: #94B49F;
+		text-decoration: none;
+		color: #fff;
+		font-family: 'Indie Flower';
+		font-weight: 700;
+		font-size: 20px;
+		border-radius: 30px;
+	}
+}
